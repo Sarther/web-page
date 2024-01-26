@@ -1,0 +1,47 @@
+/*Fondo del Data Table*/
+.datatable-body{ 
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+}
+
+/*Centrar contenido*/
+.centered{
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+/* Fondo pagina principal */
+.content-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/img/fp.svg');
+    background-size: cover;
+}
+
+/*Boton pagina principal*/
+.btn-consultar{
+    width: 35%;
+    height: 10%;
+    border-radius: 10px;
+    font-size: 30px;
+    background: rgb(10,168,121);
+    background: linear-gradient(90deg, rgba(10,168,121,1) 4%, rgba(22,169,215,1) 54%, rgba(115,15,186,1) 95%);
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* Efecto del boton principal */
+.btn-consultar:hover{
+    background: rgb(115,15,186);
+    background: linear-gradient(90deg, rgba(115,15,186,1) 4%, rgba(10,168,121,1) 54%, rgba(22,169,215,1) 95%);
+    color: white;
+}
